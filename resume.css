@@ -1,0 +1,164 @@
+body {
+  /* background-color: rgb(182, 240, 255); */
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+header {
+  /* background-color: rgb(116, 225, 252); */
+  background-image: linear-gradient(rgb(113, 227, 255), rgb(251, 254, 255));
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+nav {
+  /* background-color: rgb(117, 184, 247); */
+  background-color: rgb(218, 218, 218);
+  padding: 15px;
+}
+nav a {
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+nav a:hover {
+  color: hsl(222, 100%, 58%);
+  font-size: 1.5rem;
+}
+h1,
+h2,
+h3 {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  background-color: rgba(0, 128, 255, 0.91);
+  color: white;
+}
+footer h3 {
+  color: white;
+}
+h4 {
+  font-size: 20px;
+}
+h1::first-letter {
+  font-size: 50px;
+  background-attachment: tomato;
+}
+p::first-line {
+  background-attachment: tomato;
+}
+.about {
+  border: 2px solid;
+  padding-left: 25px;
+  font-size: 20px;
+  background-color: rgb(79, 79, 79);
+  color: white;
+}
+#about-me {
+  text-decoration: underline;
+}
+img {
+  width: 400px;
+  height: auto;
+}
+aside {
+  display: flex;
+  float: right;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  width: 40%;
+  padding: 15px;
+  margin: 15px;
+  line-height: 30px;
+  background-color: rgba(197, 230, 255, 0.977);
+}
+
+.technical-skills,
+.education {
+  padding-top: 50px;
+}
+#education-list li::before {
+  content: "✅";
+}
+#education-list li::marker {
+  content: none;
+}
+
+.technical-skills p {
+  font-family: "Times New Roman", Times;
+  font-weight: bold;
+  font-style: italic;
+}
+
+section {
+  background-color: rgba(197, 230, 255, 0.977);
+  display: flex;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  margin: 15px;
+}
+.button-container {
+  display: block;
+  height: 100px;
+}
+button {
+  clear: both;
+  padding: 10px;
+  margin: 10px;
+  font-size: 15px;
+  background-color: rgb(168, 246, 168);
+}
+button:hover {
+  background-color: rgb(120, 255, 120);
+}
+
+.project1 figure,
+.project2 figure,
+.project3 figure {
+  display: inline-flex;
+  font-size: 20px;
+}
+
+.project1 figure figcaption,
+.project2 figure figcaption,
+.project3 figure figcaption {
+  display: block;
+  width: 100%;
+  text-align: justify;
+  line-height: 30px;
+  padding: 5px;
+}
+footer {
+  display: block;
+  clear: both;
+  background-color: rgb(43, 158, 252);
+  padding: 10px;
+}
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a :hover {
+  color: hsl(193, 100%, 84%);
+  font-size: 1.5rem;
+  /* background-color: hsl(193, 100%, 84%); */
+}
+footer a:link {
+  color: blue;
+}
