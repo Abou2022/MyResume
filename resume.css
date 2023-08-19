@@ -1,19 +1,21 @@
+* {
+  box-sizing: border-box;
+}
 body {
-  /* background-color: rgb(182, 240, 255); */
   background-color: rgb(255, 255, 255);
+  /* background-image: url(Assests/Bak1.jpg);
+  background-repeat: no-repeat;
+  background-position: center; */
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
 }
 header {
-  /* background-color: rgb(116, 225, 252); */
   background-image: linear-gradient(rgb(113, 227, 255), rgb(251, 254, 255));
   padding: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
 nav {
-  /* background-color: rgb(117, 184, 247); */
   background-color: rgb(218, 218, 218);
   padding: 15px;
 }
@@ -76,6 +78,7 @@ aside {
   width: 40%;
   padding: 15px;
   margin: 15px;
+  margin-right: 50px;
   line-height: 30px;
   background-color: rgba(197, 230, 255, 0.977);
 }
@@ -102,8 +105,8 @@ section {
   display: flex;
   float: left;
   width: 50%;
-  padding: 10px;
   margin: 15px;
+  margin-left: 50px;
 }
 .button-container {
   display: block;
@@ -157,8 +160,45 @@ footer a {
 footer a :hover {
   color: hsl(193, 100%, 84%);
   font-size: 1.5rem;
-  /* background-color: hsl(193, 100%, 84%); */
 }
 footer a:link {
   color: blue;
+}
+@media screen and (max-width: 768px) {
+  body,
+  nav,
+  aside,
+  section,
+  header,
+  p,
+  div,
+  button,
+  .button-container,
+  footer {
+    width: 100%;
+    /* background-color: rgb(207, 242, 255); */
+  }
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  body,
+  nav,
+  aside,
+  section,
+  header,
+  p,
+  div,
+  button,
+  .button-container,
+  footer {
+    width: 100%;
+    /* background-color: rgb(207, 242, 255); */
+  }
+  img {
+    width: 200px;
+    height: 200px;
+  }
 }
