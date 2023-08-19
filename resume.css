@@ -164,41 +164,35 @@ footer a :hover {
 footer a:link {
   color: blue;
 }
-@media screen and (max-width: 768px) {
-  body,
-  nav,
-  aside,
+
+/* new media query */
+@media screen and (max-width: 767px) {
+  /* Your mobile-specific styles here */
   section,
-  header,
-  p,
-  div,
-  button,
-  .button-container,
+  aside,
   footer {
     width: 100%;
-    /* background-color: rgb(207, 242, 255); */
-  }
-  img {
-    width: 200px;
-    height: 200px;
   }
 }
-@media screen and (max-width: 1000px) {
-  body,
-  nav,
-  aside,
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Your tablet-specific styles here */
   section,
-  header,
-  p,
-  div,
-  button,
-  .button-container,
+  aside,
   footer {
     width: 100%;
-    /* background-color: rgb(207, 242, 255); */
   }
-  img {
-    width: 200px;
-    height: 200px;
+  section,
+  aside {
+    margin: 5px;
+    background-color: rgb(200, 255, 196);
   }
+  header {
+    background-image: linear-gradient(rgb(189, 255, 127), white);
+  }
+  footer {
+    background-color: gray;
+  }
+}
+@media screen and (orientation: landscape) {
+  /* Your landscape-specific styles here */
 }
