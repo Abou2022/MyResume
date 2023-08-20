@@ -170,7 +170,8 @@ footer a:link {
   /* Your mobile-specific styles here */
   section,
   aside,
-  footer {
+  footer,
+  header {
     width: 100%;
   }
 }
@@ -192,7 +193,13 @@ footer a:link {
   footer {
     background-color: gray;
   }
+  button {
+    background-color: rgba(0, 128, 255, 0.91);
+    color: white;
+    box-shadow: 10px 10px lightblue;
+  }
 }
+
 @media screen and (orientation: landscape) {
   /* Your landscape-specific styles here */
 }
