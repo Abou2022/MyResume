@@ -139,6 +139,9 @@ button:hover {
   line-height: 30px;
   padding: 5px;
 }
+#contact-information {
+  text-decoration: underline;
+}
 footer {
   display: block;
   clear: both;
@@ -168,11 +171,36 @@ footer a:link {
 /* new media query */
 @media screen and (max-width: 767px) {
   /* Your mobile-specific styles here */
+  body {
+    background-color: rgb(219, 219, 219);
+  }
   section,
   aside,
   footer,
   header {
     width: 100%;
+    /* background-color: gold; */
+  }
+  header {
+    background-image: linear-gradient(hsl(51, 100%, 71%), white);
+  }
+  aside,
+  section {
+    background-color: hsl(43, 100%, 81%);
+    margin: 0;
+    padding: 0;
+  }
+  #resume,
+  .summary,
+  p {
+    width: 100%;
+  }
+  img {
+    width: 200px;
+    height: auto;
+  }
+  figcaption {
+    float: right;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
