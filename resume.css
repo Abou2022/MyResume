@@ -77,7 +77,6 @@ aside {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
   width: 40%;
-  padding: 15px;
   margin: 15px;
   margin-right: 50px;
   line-height: 30px;
@@ -119,6 +118,8 @@ button {
   margin: 10px;
   font-size: 15px;
   background-color: rgb(168, 246, 168);
+  box-shadow: 10px 10px rgb(194, 255, 194);
+  border-radius: 10px;
 }
 button:hover {
   background-color: rgb(120, 255, 120);
