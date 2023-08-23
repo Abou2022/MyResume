@@ -1,8 +1,6 @@
 # My Resume Portfolio
 
-<!-- https://myportfolioreactsecond.herokuapp.com/ -->
-
-    ## Table of Contents:
+## Table of Contents:
 
     1. Project Overview
     2. Descriptions
