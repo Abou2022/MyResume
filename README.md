@@ -12,9 +12,7 @@
 
 ## Project Overview
 
-```
-This project involves the creation of a responsive web page that serves as a portfolio for potential employees. The primary objective is to showcase a developer's previous work in a user-friendly and visually appealing manner. The implementation leverages HTML and CSS to create a dynamic and adaptable user experience.
-```
+`This project involves the creation of a responsive web page that serves as a portfolio for potential employees. The primary objective is to showcase a developer's previous work in a user-friendly and visually appealing manner. The implementation leverages HTML and CSS to create a dynamic and adaptable user experience.`
 
 ## Description
 
@@ -41,7 +39,7 @@ CSS: Employed for styling and ensuring a visually appealing and responsive desig
 
 ## Usage
 
-To access the website, simply [visit my website](https://www.example.com). Feel free to resize the page or view it on various screens and devices to observe the responsive layout in action.
+To access the website, simply [visit my website](https://abou2022.github.io/MyResume/). Feel free to resize the page or view it on various screens and devices to observe the responsive layout in action.
 
 ## App Screenshots
 
