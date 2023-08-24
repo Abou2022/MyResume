@@ -3,10 +3,6 @@
 }
 body {
   background-color: rgb(255, 255, 255);
-  /* background-image: url(Assests/Bak1.jpg);
-  background-repeat: no-repeat;
-  background-position: center; */
-  margin: 0;
   padding: 0;
 }
 main {
@@ -31,7 +27,6 @@ header .header-page {
   align-items: center;
   padding-left: 10px;
   border-radius: 50px;
-  /* float: right; */
 }
 nav {
   background-color: rgb(218, 218, 218);
@@ -85,18 +80,18 @@ p::first-line {
   text-decoration: underline;
 }
 img {
-  width: 400px;
-  height: auto;
+  width: 95%;
+  height: 200px;
   object-fit: cover;
 }
 aside {
   display: flex;
   float: right;
+  flex-wrap: wrap;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
   width: 40%;
   margin: 15px;
-  /* padding: 10px; */
   line-height: 30px;
   background-color: rgba(197, 230, 255, 0.977);
 }
@@ -125,6 +120,11 @@ aside {
   font-weight: bold;
   font-style: italic;
 }
+figure {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
 
 section {
   background-color: rgba(197, 230, 255, 0.977);
@@ -133,7 +133,6 @@ section {
   font-family: "Times New Roman", Times, serif;
   width: 55%;
   margin: 15px;
-  /* padding: 10px; */
   flex-wrap: wrap;
 }
 .button-container {
@@ -167,13 +166,15 @@ button:hover {
 .project2 figure figcaption,
 .project3 figure figcaption
 /* .button-container { */ {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: inline-block;
+  flex-wrap: wrap; */
+  float: right;
   width: 100%;
   text-align: justify;
   line-height: 30px;
   padding: 5px;
 }
+
 #contact-information {
   text-decoration: underline;
 }
