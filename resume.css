@@ -96,9 +96,17 @@ aside {
   font-size: 20px;
   width: 40%;
   margin: 15px;
-  /* margin-right: 50px; */
+  /* padding: 10px; */
   line-height: 30px;
   background-color: rgba(197, 230, 255, 0.977);
+}
+.summary p,
+.technical-skills p,
+.education p,
+.project1,
+.project2,
+.project3 {
+  padding: 10px;
 }
 
 .technical-skills,
@@ -125,7 +133,7 @@ section {
   font-family: "Times New Roman", Times, serif;
   width: 55%;
   margin: 15px;
-  /* margin-left: 50px; */
+  /* padding: 10px; */
   flex-wrap: wrap;
 }
 .button-container {
