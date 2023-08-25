@@ -9,6 +9,15 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
+.header-page img {
+  animation-name: slideLeft;
+  animation-duration: 2s;
+}
+@keyframes slideLeft {
+  from {
+    transform: translateX(300%);
+  }
+}
 
 header .header-page {
   background-image: linear-gradient(rgb(113, 227, 255), rgb(251, 254, 255));
