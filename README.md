@@ -54,8 +54,6 @@ You are encouraged to make contributions to this project by submitting a Git pul
 
 Should you have any questions, please don't hesitate to reach out via email my [Email](mailto:syllabakary2002@gmail.com). Your inquiries are welcome, and I'm here to assist you.
 
-<!-- [Email](mailto:syllabakary2002@gmail.com) -->
-
 ---
 
 © 2023 Bakary sylla, Inc. brand. Confidential and Proprietary. All Rights Reserved.
